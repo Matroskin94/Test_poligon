@@ -1,0 +1,23 @@
+.formContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.formBlock {
+	align-items: flex-end;
+}
+
+.inputStyle {
+	margin: 8px;
+}
+
+.typeInput {
+	margin: 8px;
+	width: 164px;
+}
+
+.iconStyle {
+	margin-left: 5px;
+	margin-right: 5px;
+}

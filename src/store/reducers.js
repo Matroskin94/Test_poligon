@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import HomePageReducer from './HomePageReducer';
+import CostsReducer from './CostsReducer';
 
 export default combineReducers({
-    homePageReducer: HomePageReducer
+    costsReducer: CostsReducer
 });

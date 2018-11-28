@@ -1,0 +1,8 @@
+body {
+	background-color: #eeeeee;
+	padding: 10px;
+}
+
+.containerLayout {
+	min-height: 98vh;
+}

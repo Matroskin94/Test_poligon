@@ -1,0 +1,8 @@
+.tableDataWrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.tableContainer {
+	min-height: 204px;
+}

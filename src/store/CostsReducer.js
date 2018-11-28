@@ -2,7 +2,7 @@ const initialState = {
     homeState: false
 };
 
-export default function HomePageReducer(state = initialState, action) {
+export default function CostsReducer(state = initialState, action) {
     switch (action.type) {
         case 'TEST_ACTION': {
             return {
