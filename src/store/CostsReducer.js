@@ -1,13 +1,20 @@
+import { ADD_ITEM, DELETE_ITEM } from '../constants/actionTypes';
+
 const initialState = {
-    homeState: false
+    costs: []
 };
 
 export default function CostsReducer(state = initialState, action) {
     switch (action.type) {
-        case 'TEST_ACTION': {
+        case ADD_ITEM: {
             return {
                 ...state,
-                homeState: action.payload
+                costs: state.costs.concat(action.payload)
+            };
+        }
+        case DELETE_ITEM: {
+            return {
+                ...state
             };
         }
         default: {

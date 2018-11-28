@@ -4,5 +4,14 @@
         "react",
         "stage-1"
         ],
-    "plugins": ["transform-class-properties"]
+    "plugins": ["transform-class-properties"],
+    "env": {
+    "test": {
+      "presets": [
+        ["es2015", { "loose": true }],
+        "stage-1",
+        "react"
+        ]
+    }
+  }
 }
